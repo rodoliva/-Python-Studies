@@ -102,3 +102,6 @@ df.to_json(filename) # Writes to a file in JSON format
 df.to_html(filename) # Saves as an HTML table
 df.to_clipboard() # Writes to the clipboard
 ```
+
+---
+From <a https://github.com/madewithml/basics/blob/4ad626098aca25db5628fe67895e738d5a5c2c2a/notebooks/03_Pandas.ipynb" target="_blank">Basics of data analysis</a>
