@@ -104,7 +104,7 @@ df.to_clipboard() # Writes to the clipboard
 ```
 
 ---
-From: https://github.com/madewithml/basics/blob/4ad626098aca25db5628fe67895e738d5a5c2c2a/notebooks/03_Pandas.ipynb
+From <a href="https://github.com/madewithml/basics/blob/4ad626098aca25db5628fe67895e738d5a5c2c2a/notebooks/03_Pandas.ipynb" target="_blank">Panda Basic</a>
 
 **Histograms**
 ```python
@@ -115,3 +115,7 @@ df["Age"].hist()
 ```python
 df['sex'] = df['sex'].map( {'female': 0, 'male': 1} ).astype(int)
 ```
+
+---
+
+from <a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html" target="_blank">Getting started tutorials</a>
