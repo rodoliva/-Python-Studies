@@ -1,7 +1,6 @@
 # Pandas
 
-From this Python Cheat Sheet for Data Science
-<a href="https://elitedatascience.com/python-cheat-sheet" target="_blank">Python Cheat Sheet for Data Science</a>
+From <a href="https://elitedatascience.com/python-cheat-sheet" target="_blank">Python Cheat Sheet for Data Science</a>
 
 ---
 **Importing Data**
