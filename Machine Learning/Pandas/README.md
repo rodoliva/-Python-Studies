@@ -94,11 +94,12 @@ pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows s
 df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 'outer', 'inner'<strong> </strong>
 ```
 
-**Ex**
+**Writing Data**
 ```Python
-
-```
-**Ex**
-```Python
-
+df.to_csv(filename) # Writes to a CSV file
+df.to_excel(filename) # Writes to an Excel file
+df.to_sql(table_name, connection_object) # Writes to a SQL table
+df.to_json(filename) # Writes to a file in JSON format
+df.to_html(filename) # Saves as an HTML table
+df.to_clipboard() # Writes to the clipboard
 ```
