@@ -4,7 +4,7 @@ From <a href="https://elitedatascience.com/python-cheat-sheet" target="_blank">P
 
 ---
 **Importing Data**
-```Python
+```python
 import pandas as pd
 pd.read_csv(filename) # From a CSV file
 pd.read_table(filename) # From a delimited text file (like TSV)
@@ -17,13 +17,13 @@ pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lis
 ```
 To manipulate, define a data frame, for example:
 
-```Python
+```python
 import pandas as pd
 df = pd.read_csv('data.csv') #Data Frame
 ```
 
 **Exploring**
-```Python
+```python
 df.shape() # Prints number of rows and columns in dataframe
 df.head(n) # Prints first n rows of the DataFrame
 df.tail(n) # Prints last n rows of the DataFrame
@@ -42,7 +42,7 @@ df.std() # Returns the standard deviation of each column
 ```
 
 **Select**
-```Python
+```python
 df[col] # Returns column with label col as Series
 df[[col1, col2]] # Returns Columns as a new DataFrame
 s.iloc[0] # Selection by position (selects first element)
@@ -52,7 +52,7 @@ df.iloc[0,0] # First element of first column
 ```
 
 **Cleaning**
-```Python
+```python
 df.columns = ['a','b','c'] # Renames columns
 pd.isnull() # Checks for null Values, Returns Boolean Array
 pd.notnull() # Opposite of s.isnull()
@@ -71,7 +71,7 @@ df.rename(index=lambda x: x + 1) # Mass renaming of index
 ```
 
 **Filter, Sort and Group By**
-```Python
+```python
 df[df[col] > 0.5] # Rows where the col column is greater than 0.5
 df[(df[col] > 0.5) & (df[col] < 0.7)] # Rows where 0.5 < col < 0.7
 df.sort_values(col1) # Sorts values by col1 in ascending order
@@ -87,14 +87,14 @@ df.apply(np.max, axis=1) # Applies a function across each row
 ```
 
 **Combining two dataframes**
-```Python
+```python
 df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
 pd.concat([df1, df2],axis=1) # Adds the columns in df1 to the end of df2 (rows should be identical)
 df1.join(df2,on=col1,how='inner') # SQL-style joins the columns in df1 with the columns on df2 where the rows for col have identical values. how can be one of 'left', 'right', 'outer', 'inner'<strong> </strong>
 ```
 
 **Writing Data**
-```Python
+```python
 df.to_csv(filename) # Writes to a CSV file
 df.to_excel(filename) # Writes to an Excel file
 df.to_sql(table_name, connection_object) # Writes to a SQL table
