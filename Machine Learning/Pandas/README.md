@@ -117,5 +117,28 @@ df['sex'] = df['sex'].map( {'female': 0, 'male': 1} ).astype(int)
 ```
 
 ---
+From <a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html" target="_blank">Getting started tutorials</a>
 
-from <a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html" target="_blank">Getting started tutorials</a>
+**Plots**
+```python
+df["Age"].plot()
+```
+
+Available plt methods:
+```python
+[method_name for method_name in dir(data_frame.plot) if not method_name.startswith("_")]
+['area','bar','barh','box','density','hexbin','hist','kde','line','pie','scatter']
+```
+
+```python
+df["Age"].plot.box()
+```
+More <a href="https://pandas.pydata.org/docs/user_guide/visualization.html#visualization-other" target="_blank">Visualization</a>
+
+**Time series**
+```python
+df["datetime"] = pd.to_datetime(df["datetime"])
+df["datetime"].dt.month
+df["datetime"].dt.year
+```
+More <a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/09_timeseries.html" target="_blank">Time Series</a>
