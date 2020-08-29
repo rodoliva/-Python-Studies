@@ -74,3 +74,92 @@ ax.set_title("Simple Plot")  # Add a title to the axes.
 ax.legend()  # Add a legend.
 ```
 ![Graph5](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph5.png?raw=true)
+
+or plot style:
+```python
+x = np.linspace(0, 2, 100)
+
+plt.plot(x, x, label='linear')  # Plot some data on the (implicit) axes.
+plt.plot(x, x**2, label='quadratic')  # etc.
+plt.plot(x, x**3, label='cubic')
+plt.xlabel('x label')
+plt.ylabel('y label')
+plt.title("Simple Plot")
+plt.legend()
+```
+
+***Better aproach***
+
+Make a function to do all of this to all the graph that you need:
+
+```python
+def my_plotter(ax, data1, data2, param_dict):
+    """
+    A helper function to make a graph
+
+    Parameters
+    ----------
+    ax : Axes
+        The axes to draw to
+
+    data1 : array
+       The x data
+
+    data2 : array
+       The y data
+
+    param_dict : dict
+       Dictionary of kwargs to pass to ax.plot
+
+    Returns
+    -------
+    out : list
+        list of artists added
+    """
+    out = ax.plot(data1, data2, **param_dict)
+    return out
+```
+
+Example:
+```python
+data1, data2, data3, data4 = np.random.randn(4, 100)
+fig, ax = plt.subplots(1, 1)
+my_plotter(ax, data1, data2, {'marker': 'x'})
+```
+![Graph6](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph6.png?raw=true)
+
+ sub-plots:
+ 
+ ```python
+fig, (ax1, ax2) = plt.subplots(1, 2)
+my_plotter(ax1, data1, data2, {'marker': 'x'})
+my_plotter(ax2, data3, data4, {'marker': 'o'})
+```
+![Graph7](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph7.png?raw=true)
+
+***Interactive view***
+
+This will show immediately the figure:
+ ```python
+import matplotlib.pyplot as plt
+plt.ion()
+plt.plot([1.6, 2.7])
+plt.title("interactive test")
+plt.xlabel("index")
+```
+![Graph8](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph8.png?raw=true)
+
+***Non-Interactive view***
+Every time you use the show method, the figure will appear:
+ ```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.ioff()
+for i in range(3):
+    plt.plot(np.random.rand(10))
+    plt.show()
+```
+![Graph9](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph9.png?raw=true)
+![Graph10](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph10.png?raw=true)
+![Graph11](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph11.png?raw=true)
