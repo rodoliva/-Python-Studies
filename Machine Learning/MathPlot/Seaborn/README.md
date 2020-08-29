@@ -7,6 +7,16 @@ Seaborn is a Python data visualization library based on matplotlib. It provides 
 ---
 
 ```python
-
+import seaborn as sns
+sns.set()
+tips = sns.load_dataset("tips")
+sns.relplot(x="total_bill", y="tip", col="time",
+            hue="smoker", style="smoker", size="size",
+            data=tips);
 ```
+
+
+## Example Gallery
+
+<a href="https://seaborn.pydata.org/examples/index.html">Examples</a>
 
