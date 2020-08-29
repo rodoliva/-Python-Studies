@@ -330,6 +330,6 @@ plt.show()
 ![Graph19](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph19.png?raw=true)
 
 
-##Other Samples
+## Other Samples
 
 From <a href="https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py" target="_blank">Samples</a>
