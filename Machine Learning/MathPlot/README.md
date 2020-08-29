@@ -73,4 +73,4 @@ ax.set_ylabel('y label')  # Add a y-label to the axes.
 ax.set_title("Simple Plot")  # Add a title to the axes.
 ax.legend()  # Add a legend.
 ```
-![Graph5](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph4.png?raw=true)
+![Graph5](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph5.png?raw=true)
