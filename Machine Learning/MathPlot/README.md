@@ -1,6 +1,6 @@
 # Matplotlib
 
-From <a href="https://matplotlib.org/" target="_blank">Matplotlib</a>
+From <a href="https://matplotlib.org/tutorials/index.html#introductory" target="_blank">Matplotlib</a>
 
 ---
 
@@ -333,3 +333,11 @@ plt.show()
 ## Other Samples
 
 From <a href="https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py" target="_blank">Samples</a>
+
+## Images Tutorial
+
+From <a href="https://matplotlib.org/tutorials/introductory/images.html#sphx-glr-tutorials-introductory-images-py" target="_blank">Images</a>
+
+## The Lifecycle of a Plot
+
+From <a href="https://matplotlib.org/tutorials/introductory/lifecycle.html#sphx-glr-tutorials-introductory-lifecycle-py" target="_blank">Cycles</a>
