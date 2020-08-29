@@ -150,6 +150,7 @@ plt.xlabel("index")
 ![Graph8](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph8.png?raw=true)
 
 ***Non-Interactive view***
+
 Every time you use the show method, the figure will appear:
  ```python
 import numpy as np
