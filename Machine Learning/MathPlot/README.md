@@ -5,6 +5,7 @@ From <a href="https://matplotlib.org/" target="_blank">Matplotlib</a>
 ---
 
 **Simple graph**
+
 ```python
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
@@ -19,6 +20,7 @@ plt.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Matplotlib plot.
 ```
 
 **Parts of a Figure**
+
 ![Graph2](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph2.png?raw=true)
 
 - Axes: This is what you think of as 'a plot', it is the region of the image with the data space. A given figure can contain many Axes. The Axes contains two (or three in the case of 3D) Axis objects.
@@ -37,6 +39,7 @@ fig, axs = plt.subplots(2, 2)  # a figure with a 2x2 grid of Axes
 
 
 **Types of inputs to plotting functions***
+
 All of plotting functions expect numpy.array or numpy.ma.masked_array as input. Classes that are 'array-like' such as pandas data objects and numpy.matrix may or may not work as intended. It is best to convert these to numpy.array objects prior to plotting.
 
 Convert to pandas:
@@ -54,6 +57,7 @@ b_asarray = np.asarray(b)
 ```
 
 ***The object-oriented interface and the pyplot interface***
+
 As noted above, there are essentially two ways to use Matplotlib:
 
 Explicitly create figures and axes, and call methods on them (the "object-oriented (OO) style").
