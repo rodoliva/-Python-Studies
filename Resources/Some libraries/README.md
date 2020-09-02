@@ -8,8 +8,9 @@
 - [SMS](#SMS)
 - [Scraping](#Scraping)
 - [Print](#Print)
-
-
+- [Web](#Web)
+- [Virtual Environments](#Virtual_Environments)
+- [csv](#csv)
 
 ---
 
@@ -82,6 +83,40 @@
 ## Print
 
 <a href="https://docs.python.org/3/library/pprint.html" target="_blank">pprint: Data pretty printerp</a>
+
+[back](#Libraries)
+
+---
+
+## Web
+
+<a href="https://palletsprojects.com/p/flask/" target="_blank">Flask</a>
+
+to run:
+
+```shell
+export FLASK_APP=main.py
+export FLASK_ENV=development
+flask run
+```
+
+<a href="https://www.djangoproject.com/" target="_blank">Django</a>
+
+[back](#Libraries)
+
+---
+
+## Virtual_Environments
+
+<a href="https://docs.python.org/3/library/venv.html" target="_blank">venv</a>
+
+[back](#Libraries)
+
+---
+
+## csv
+
+<a href="https://docs.python.org/3/library/csv.html" target="_blank">csv</a>
 
 [back](#Libraries)
 
