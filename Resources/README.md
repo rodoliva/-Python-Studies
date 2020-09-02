@@ -4,6 +4,11 @@
 ## Table of Contents
 
 - [Online IDE](#online_ide)
+- [Python Resources](#python_resources)
+- [Python Mathematical Functions](#python_mathematical_functions)
+- [Python Keywords](#python_keywords)
+- [Python String Methods](#python_string_methods)
+- [Python Mathematical Functions](#Python_Mathematical_Functions)
 
 
 
@@ -17,7 +22,7 @@
 
 ---
 
-## Python Resources
+## Python_Resources
 
 <a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a>
 
@@ -25,7 +30,7 @@
 
 ---
 
-## Python Mathematical Functions
+## Python_Mathematical_Functions
 
 ```python
 import math
@@ -79,7 +84,7 @@ import math
 
 ---
 
-## Python Keywords
+## Python_Keywords
 
 | Key | Description |
 | --- | --- |
@@ -119,7 +124,7 @@ import math
 
 ---
 
-## Python String Methods
+## Python_String_Methods
 
 | Key | Description |
 | --- | --- |
