@@ -130,6 +130,8 @@ flask run
 
 browser drivers:
 
+| Browser | Link |
+| --- | --- |
 | Chrome: |	https://sites.google.com/a/chromium.org/chromedriver/downloads |
 | Edge: | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |
 | Firefox: | https://github.com/mozilla/geckodriver/releases |
