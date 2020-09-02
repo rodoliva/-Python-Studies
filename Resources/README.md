@@ -65,7 +65,6 @@ import math
 | pi | Mathematical constant, the ratio of circumference of a circle to it's diameter (3.14159...) |
 | e | mathematical constant e (2.71828...) |
 
-
 ---
 
 ## Python Keywords
@@ -106,6 +105,7 @@ import math
 | with | Used to simplify exception handling |
 | yield | To end a function, returns a generator |
 
+---
 
 ## Python String Methods
 
