@@ -11,6 +11,7 @@
 - [Web](#Web)
 - [Virtual Environments](#Virtual_Environments)
 - [csv](#csv)
+- [WebDriver](#WebDriver)
 
 ---
 
@@ -117,6 +118,22 @@ flask run
 ## csv
 
 <a href="https://docs.python.org/3/library/csv.html" target="_blank">csv</a>
+
+[back](#Libraries)
+
+---
+## WebDriver
+
+<a href="https://selenium-python.readthedocs.io/" target="_blank">Selenium</a>
+
+<a href="https://github.com/baijum/selenium-python/" target="_blank">Selenium Git</a>
+
+browser drivers:
+
+| Chrome: |	https://sites.google.com/a/chromium.org/chromedriver/downloads |
+| Edge: | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ |
+| Firefox: | https://github.com/mozilla/geckodriver/releases |
+| Safari: | https://webkit.org/blog/6900/webdriver-support-in-safari-10/ |
 
 [back](#Libraries)
 
