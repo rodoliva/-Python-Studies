@@ -5,7 +5,7 @@
 - [Python Mathematical Functions](#python_mathematical_functions)
 - [Python Keywords](#python_keywords)
 - [Python String Methods](#python_string_methods)
-- [Python List/Array Methods](#Python_List/Array_Methods)
+- [Python List Methods](#Python_List_Methods)
 
 
 
@@ -172,7 +172,7 @@ import math
 
 ---
 
-## Python_List/Array_Methods
+## Python_List_Methods
 
 | Key | Description |
 | --- | --- |
