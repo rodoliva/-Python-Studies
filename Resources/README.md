@@ -18,6 +18,8 @@
 
 <a href="https://glot.io/" target="_blank">glot.io: in-browser IDE</a>
 
+[back](#Table_of_Contents)
+
 ---
 
 ## Python_Resources
@@ -25,6 +27,8 @@
 <a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a>
 
 <a href="https://realpython.com/python-comments-guide/" target="_blank">Comments Guide</a>
+
+[back](#Table_of_Contents)
 
 ---
 
@@ -80,6 +84,8 @@ import math
 | pi | Mathematical constant, the ratio of circumference of a circle to it's diameter (3.14159...) |
 | e | mathematical constant e (2.71828...) |
 
+[back](#Table_of_Contents)
+
 ---
 
 ## Python_Keywords
@@ -119,6 +125,8 @@ import math
 | while | To create a while loop |
 | with | Used to simplify exception handling |
 | yield | To end a function, returns a generator |
+
+[back](#Table_of_Contents)
 
 ---
 
@@ -171,6 +179,8 @@ import math
 | upper() | Converts a string into upper case |
 | zfill() | Fills the string with a specified number of 0 values at the beginning |
 
+[back](#Table_of_Contents)
+
 ---
 
 ## Python_List_Methods
@@ -188,6 +198,8 @@ import math
 | remove() | Removes the first item with the specified value |
 | reverse() | Reverses the order of the list |
 | sort() | Sorts the list |
+
+[back](#Table_of_Contents)
 
 ---
 
@@ -207,6 +219,8 @@ import math
 | update() | Updates the dictionary with the specified key-value pairs |
 | values() | Returns a list of all the values in the dictionary |
 
+[back](#Table_of_Contents)
+
 ---
 
 ## Python_Tuple_Methods
@@ -215,6 +229,8 @@ import math
 | --- | --- |
 | count() | Returns the number of times a specified value occurs in a tuple |
 | index() | Searches the tuple for a specified value and returns the position of where it was found |
+
+[back](#Table_of_Contents)
 
 ---
 
