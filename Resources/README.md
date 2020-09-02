@@ -5,7 +5,7 @@
 - [Python Mathematical Functions](#python_mathematical_functions)
 - [Python Keywords](#python_keywords)
 - [Python String Methods](#python_string_methods)
-- [Python Mathematical Functions](#Python_Mathematical_Functions)
+- [Python List/Array Methods](#Python_List/Array_Methods)
 
 
 
@@ -172,7 +172,7 @@ import math
 
 ---
 
-## Python List/Array Methods
+## Python_List/Array_Methods
 
 | Key | Description |
 | --- | --- |
@@ -187,4 +187,4 @@ import math
 | remove() | Removes the first item with the specified value |
 | reverse() | Reverses the order of the list |
 | sort() | Sorts the list |
-| --- | --- |
+
