@@ -1,12 +1,14 @@
 ## Table_of_Contents
 
-- [Online IDE](#online_ide)
+- [Resources](#Resources)
 
 ---
 
-## Online_IDE
+## Resources
 
-<a href="https://repl.it/" target="_blank">Repl: in-browser IDE</a>
+<a href="https://teachablemachine.withgoogle.com/train" target="_blank">Teachable Machine</a>
+
+<a href="https://ml-playground.com/#" target="_blank">Machine Learning Playground</a>
 
 [back](#Table_of_Contents)
 
