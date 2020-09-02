@@ -2,6 +2,7 @@
 
 - [Online IDE](#online_ide)
 - [Python Resources](#python_resources)
+- [Other Resources](#other_resources)
 - [Python Mathematical Functions](#python_mathematical_functions)
 - [Python Keywords](#python_keywords)
 - [Python String Methods](#python_string_methods)
@@ -27,6 +28,30 @@
 <a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a>
 
 <a href="https://realpython.com/python-comments-guide/" target="_blank">Comments Guide</a>
+
+<a href="https://www.makeuseof.com/tag/python-instance-static-class-methods/" target="_blank">Instance vs. Static vs. Class Methods</a>
+
+<a href="https://docs.python.org/3/reference/datamodel.html#special-method-names" target="_blank">Special method names</a>
+
+<a href="https://docs.python.org/3/library/exceptions.html" target="_blank">Built-in Exceptions</a>
+
+<a href="https://docs.python.org/3/py-modindex.html" target="_blank">Python Module Index</a>
+
+<a href="https://pypi.org/" target="_blank">PyPI</a>
+
+[back](#Table_of_Contents)
+
+---
+
+## Other_Resources
+
+<a href="https://passwordsgenerator.net/sha1-hash-generator/" target="_blank">SHA1 Hash Generator</a>
+
+<a href="https://www.pythonanywhere.com/" target="_blank">Host, run, and code Python</a>
+
+<a href="http://www.mashup-template.com/templates.html" target="_blank">HTML Templates 1</a>
+
+<a href="https://hatchful.shopify.com/" target="_blank">Logo Maker</a>
 
 [back](#Table_of_Contents)
 
