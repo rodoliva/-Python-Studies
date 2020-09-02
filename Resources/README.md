@@ -1,6 +1,3 @@
-# Resources
-
-
 ## Table of Contents
 
 - [Online IDE](#online_ide)
