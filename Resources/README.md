@@ -3,13 +3,14 @@
 <a href="https://repl.it/" target="_blank">Repl: in-browser IDE</a>
 
 <a href="https://glot.io/" target="_blank">glot.io: in-browser IDE</a>
+
 ---
 
 ## Python Resources
 
 <a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a>
 
-<a href="https://docs.python.org/3/library/functions.html" target="_blank">Built-in Functions</a>
+<a href="https://realpython.com/python-comments-guide/" target="_blank">Comments Guide</a>
 
 ---
 
