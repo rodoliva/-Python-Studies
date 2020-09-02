@@ -12,7 +12,7 @@
 import math
 ```
 
-```python
+```
 ceil(x)	Returns the smallest integer greater than or equal to x.
 copysign(x, y)	Returns x with the sign of y
 fabs(x)	Returns the absolute value of x
