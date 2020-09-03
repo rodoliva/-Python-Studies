@@ -10,6 +10,8 @@
 
 <a href="https://ml-playground.com/#" target="_blank">Machine Learning Playground</a>
 
+<a href="https://colab.research.google.com/" target="_blank">Google Colab</a>
+
 [back](#Table_of_Contents)
 
 ---
