@@ -12,6 +12,8 @@
 
 <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>
 
+<a href="https://www.elementsofai.com/" target="_blank">Elements of AI</a>
+
 [back](#Table_of_Contents)
 
 ---
