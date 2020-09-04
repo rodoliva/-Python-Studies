@@ -14,6 +14,10 @@
 
 <a href="https://www.elementsofai.com/" target="_blank">Elements of AI</a>
 
+<a href="https://www.anaconda.com/" target="_blank">Anaconda</a>
+
+<a href="https://docs.conda.io/en/latest/" target="_blank">Conda Documentation</a>
+
 [back](#Table_of_Contents)
 
 ---
