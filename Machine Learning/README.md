@@ -18,6 +18,8 @@
 
 <a href="https://docs.conda.io/en/latest/" target="_blank">Conda Documentation</a>
 
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html" target="_blank">Conda Environments</a>
+
 [back](#Table_of_Contents)
 
 ---
