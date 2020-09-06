@@ -32,7 +32,6 @@ df.info() # Index, Datatype and Memory information
 df.describe() # Summary statistics for numerical columns
 s.value_counts(dropna=False) # Views unique values and counts
 df.apply(pd.Series.value_counts) # Unique values and counts for all columns
-df.describe() # Summary statistics for numerical columns
 df.mean() # Returns the mean of all columns
 df.corr() # Returns the correlation between columns in a DataFrame
 df.count() # Returns the number of non-null values in each DataFrame column
