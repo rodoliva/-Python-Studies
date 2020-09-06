@@ -7,6 +7,7 @@ From <a href="https://elitedatascience.com/python-cheat-sheet" target="_blank">P
 ```python
 import pandas as pd
 pd.read_csv(filename) # From a CSV file
+pd.read_csv("https://raw.githubusercontent.com/mrdbourke/zero-to-mastery-ml/master/data/heart-disease.csv") # From a CSV URL  
 pd.read_table(filename) # From a delimited text file (like TSV)
 pd.read_excel(filename) # From an Excel file
 pd.read_sql(query, connection_object) # Reads from a SQL table/database
