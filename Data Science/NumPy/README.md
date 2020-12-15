@@ -58,6 +58,7 @@ b = a.mean() = 0
 c = a.max() = 1
 d = np.pi
 e = np.sin(x)
+f = np.std() # standard deviation
 
 # mathematical plotting
 np.linsspace(-2,2,num=5) = np.array([-2,-1,0,1,2]) #-2 start, 2 end, 5 number of samples
