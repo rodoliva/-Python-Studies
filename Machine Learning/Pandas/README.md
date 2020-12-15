@@ -70,7 +70,8 @@ df.rename(columns=lambda x: x + 1) # Mass renaming of columns
 df.rename(columns={'old_name': 'new_ name'}) # Selective renaming
 df.set_index('column_one') # Changes the index
 df.rename(index=lambda x: x + 1) # Mass renaming of index
-df.loc[0:2, 'clumn_name1', column_name2'] # Slice df rows 0 to 2 and column name1 to name 2]
+df.loc[0:2, 'clumn_name1', column_name2'] # Slice df rows 0 to 2 and column name1 to name2]
+df.iloc[0:2, 0:3] # Slice df rows 0 to 2 and column 0 to 3]
 ```
 
 **Filter, Sort and Group By**
