@@ -11,6 +11,8 @@ import numpy as np
 ```python
 a=np.arrat([1,2,3,4,5]) # Array
 a[0] # index 0 (ex:1)
+type(a) # type
+a.dtype # data type
 a.size # elements in the array
 a.ndim # number of array dimension
 a.shape # size of the array in each dimension
