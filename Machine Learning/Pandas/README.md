@@ -91,6 +91,13 @@ df.apply(np.mean) # Applies a function across each column
 df.apply(np.max, axis=1) # Applies a function across each row
 ```
 
+**Modify Index**
+```python
+df.index # show index properties
+new_index=['a','b','c','d','e','f','g','h'] # example
+df_new.index=new_index # assign new index to a new df
+```
+
 **Combining two dataframes**
 ```python
 df1.append(df2) # Adds the rows in df1 to the end of df2 (columns should be identical)
