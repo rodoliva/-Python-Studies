@@ -30,7 +30,8 @@ df.head(n) # Prints first n rows of the DataFrame
 df.tail(n) # Prints last n rows of the DataFrame
 df.info() # Index, Datatype and Memory information
 df.describe() # Summary statistics for numerical columns
-s.value_counts(dropna=False) # Views unique values and counts
+df['column_mame'].unique() # Unique values for column_name
+df.value_counts(dropna=False) # Views unique values and counts
 df.apply(pd.Series.value_counts) # Unique values and counts for all columns
 df.mean() # Returns the mean of all columns
 df.corr() # Returns the correlation between columns in a DataFrame
