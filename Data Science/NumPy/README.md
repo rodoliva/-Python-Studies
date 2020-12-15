@@ -2,10 +2,11 @@
 
 ---
 **Importing Data**
+
 ```python
 import numpy as np
-
 ```
+
 **Functions & Methods**
 
 ```python
@@ -46,7 +47,7 @@ z=u*v
 # dot product (mult first part vector + mult second part vector)
 u = np.array([1,2])
 v = np.array([3,1])
-z=np.dor(u,v)= 1*3 + 2*1 = 5
+z=np.dot(u,v)= 1*3 + 2*1 = 5
 
 # broadcasting
 u = np.array([1,2,3,-1])
@@ -62,5 +63,30 @@ f = np.std() # standard deviation
 
 # mathematical plotting
 np.linsspace(-2,2,num=5) = np.array([-2,-1,0,1,2]) #-2 start, 2 end, 5 number of samples
+
+```
+
+**2D Arrays**
+
+```python
+a = [[11,12,13],[21,22,23],[31,32,33]]
+a.ndim #dimension (2)
+a.shape # array size and nest size (3,3)
+a.size # normal size of the array (9)
+a[x][y] = a[x,y] # select x row and y column
+a[0,0:2] # slicing ([11,12])
++ - * / # matrix operation
+2 * a # multipli every item by 2
+
+# matrix multiplication x columns must be equal to y rows
+x = [[11,12,13],[21,22,23]]
+y = [[45,46],[55,56],[65,66]]
+z = [[11*45+12*55+13*65,11*46+12*56+13*66],[21*45+22*55+23*65,21*46+22*56+23*66]]
+
+x_new=np.array(x)
+y_new=np.array(y)
+z_new=np.dot(x_new,y_new)
+
+
 
 ```
