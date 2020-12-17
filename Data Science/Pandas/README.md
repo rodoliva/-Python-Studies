@@ -65,6 +65,7 @@ pd.notnull() # Opposite of s.isnull()
 df.dropna() # Drops all rows that contain null values
 df.dropna(axis=1) # Drops all columns that contain null values
 df.dropna(axis=1,thresh=n) # Drops all rows have have less than n non null values
+df.dropna(subset=["columnname"], axis=0) # Drops missing values on columnname
 df.fillna(x) # Replaces all null values with x
 s.fillna(s.mean()) # Replaces all null values with the mean (mean can be replaced with almost any function from the statistics section)
 s.astype(float) # Converts the datatype of the series to float
