@@ -26,11 +26,13 @@ df = pd.read_csv('data.csv') #Data Frame
 
 **Exploring**
 ```python
+df.dtypes # data types
 df.shape() # Prints number of rows and columns in dataframe
 df.head(n) # Prints first n rows of the DataFrame
 df.tail(n) # Prints last n rows of the DataFrame
 df.info() # Index, Datatype and Memory information
 df.describe() # Summary statistics for numerical columns
+df.describe(include="all") # Summary statistics for all columns
 df['column_mame'].unique() # Unique values for column_name
 df.value_counts(dropna=False) # Views unique values and counts
 df.apply(pd.Series.value_counts) # Unique values and counts for all columns
