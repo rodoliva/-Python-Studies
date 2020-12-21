@@ -16,7 +16,17 @@ x = def['indep'] # pandas data frame with independant variable or predictor
 y = def['dep'] # pandas data frame with dependant variable or target
 lm.fit(x,y) # fit the model to fine parameters
 yhta=lm.predinct(x) # arrays prediction
-y = b0 + b1 * x # formula b0: interceptor b1: slope
+y = b0 + b1*x # formula b0: interceptor b1: slope
 lm.intercept_ # return interceptor
+lm.coef_ # return slope
+```
+
+**Multiple Linear Regression**
+```python
+z = df[['x1','x2','x3','x4']] # pandas data frame with the columns names eg: x1="age"
+lm.fot(z, y)
+yhta=lm.predinct(x) # arrays prediction
+y = b0 + b1*x1 + b2*x2 + b3*x3 + b4*x3 # formula b0: interceptor b1: slope
+lm.intercept_ # return interceptor array([b1,b2,b3,b4])
 lm.coef_ # return slope
 ```
