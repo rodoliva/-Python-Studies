@@ -6,7 +6,22 @@ Seaborn is a Python data visualization library based on matplotlib. It provides 
 
 ---
 
+## Regression plot
 
+```python
+import seaborn as sns
+sns.regplot(x="predictor", y="target", data=df) # predictor and targer are pandas column names
+plt.ylim(0,)
+```
+
+## Residual plot
+
+```python
+import seaborn as sns
+sns.residplot(df["predictor"], df["target"]) # predictor and targer are pandas column names
+```
+
+---
 
 ## Examples
 
