@@ -18,7 +18,7 @@ sns.relplot(x="total_bill", y="tip", col="time",
             hue="smoker", style="smoker", size="size",
             data=tips);
 ```
-![Graph20](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/Seaborn/graph20.png)
+![Graph20](https://raw.githubusercontent.com/rodoliva/Python-Studies/master/Data%20Science/MathPlot/Seaborn/graph20.png)
 
 ```python
 dots = sns.load_dataset("dots")
