@@ -21,6 +21,14 @@ import seaborn as sns
 sns.residplot(df["predictor"], df["target"]) # predictor and targer are pandas column names
 ```
 
+## Distribution plot
+
+```python
+import seaborn as sns
+sns.distplot(df["target"], hist=False, color="r", label="target") # predictor and targer are pandas column names
+sns.distplot(Yhat, hist=False, color="b", label="fitted values", ax=ax1)
+```
+
 ---
 
 ## Examples
