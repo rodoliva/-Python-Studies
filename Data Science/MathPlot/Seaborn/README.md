@@ -95,7 +95,7 @@ sns.relplot(x="total_bill", y="tip", col="time",
             hue="smoker", style="smoker", size="size",
             data=tips);
 ```
-![Graph31]https://raw.githubusercontent.com/rodoliva/Python-Studies/master/Data%20Science/MathPlot/Seaborn/graph31.png)
+![Graph31](https://raw.githubusercontent.com/rodoliva/Python-Studies/master/Data%20Science/MathPlot/Seaborn/graph31.png)
 
 ```python
 sns.relplot(x="total_bill", y="tip", col="time",
