@@ -30,3 +30,9 @@ y = b0 + b1*x1 + b2*x2 + b3*x3 + b4*x3 # formula b0: interceptor b1: slope
 lm.intercept_ # return interceptor array([b1,b2,b3,b4])
 lm.coef_ # return slope
 ```
+
+**Evaluation: Mean Squared Error (MSE)**
+```python
+from sklearn.metrics import mean_squared_error
+mean_squared_error(df["target"], "prediction") # actual value of target variable and the predicted value of target variable
+```
