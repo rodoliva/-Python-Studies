@@ -36,3 +36,19 @@ lm.coef_ # return slope
 from sklearn.metrics import mean_squared_error
 mean_squared_error(df["target"], "prediction") # actual value of target variable and the predicted value of target variable
 ```
+
+**Testing**
+```python
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.3, random_state=0) # x independent variable, y target, random is a number generator used for random sampling
+```
+
+**Cross Validation**
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(lr, x_data, y_data, cv=3) # lr model type object (lineal regression), cv partitions
+np.mean(scores) # average r square for each sample
+
+from sklearn.model_selection import cross_val_predict
+yhat = cross_val_predict(lr2e, x_data, y_data, cv=3) # yhat prediction
+```
