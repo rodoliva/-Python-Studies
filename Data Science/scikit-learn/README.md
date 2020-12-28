@@ -52,3 +52,12 @@ np.mean(scores) # average r square for each sample
 from sklearn.model_selection import cross_val_predict
 yhat = cross_val_predict(lr2e, x_data, y_data, cv=3) # yhat prediction
 ```
+
+**Ride Regression**
+```python
+from sklearn.linear_model import Ridge
+RidgeModel = Ridge(alpha=0.1)
+RigeModel.fit(X,y)
+Yhat = RidgeModel.predict(X)
+
+```
