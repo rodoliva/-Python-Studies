@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
 ax.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Plot some data on the axes.
 ```
-![Graph1](https://raw.githubusercontent.com/rodoliva/Python-Studies/master/Machine%20Learning/MathPlot/graph1.png)
+![Graph1](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph1.png)
+
 
 The same graph in short version:
 ```python
@@ -21,7 +22,7 @@ plt.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Matplotlib plot.
 
 **Parts of a Figure**
 
-![Graph2](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph2.png?raw=true)
+![Graph2](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph2.png)
 
 - Axes: This is what you think of as 'a plot', it is the region of the image with the data space. A given figure can contain many Axes. The Axes contains two (or three in the case of 3D) Axis objects.
 
@@ -34,8 +35,8 @@ fig = plt.figure()  # an empty figure with no Axes
 fig, ax = plt.subplots()  # a figure with a single Axes
 fig, axs = plt.subplots(2, 2)  # a figure with a 2x2 grid of Axes
 ```
-![Graph3](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph3.png?raw=true)
-![Graph4](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph4.png?raw=true)
+![Graph3](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph3.png)
+![Graph4](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph4.png)
 
 
 **Types of inputs to plotting functions***
@@ -77,7 +78,7 @@ ax.set_ylabel('y label')  # Add a y-label to the axes.
 ax.set_title("Simple Plot")  # Add a title to the axes.
 ax.legend()  # Add a legend.
 ```
-![Graph5](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph5.png?raw=true)
+![Graph5](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph5.png)
 
 or plot style:
 ```python
@@ -130,7 +131,7 @@ data1, data2, data3, data4 = np.random.randn(4, 100)
 fig, ax = plt.subplots(1, 1)
 my_plotter(ax, data1, data2, {'marker': 'x'})
 ```
-![Graph6](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph6.png?raw=true)
+![Graph6](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph6.png)
 
  sub-plots:
  
@@ -139,7 +140,7 @@ fig, (ax1, ax2) = plt.subplots(1, 2)
 my_plotter(ax1, data1, data2, {'marker': 'x'})
 my_plotter(ax2, data3, data4, {'marker': 'o'})
 ```
-![Graph7](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph7.png?raw=true)
+![Graph7](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph7.png)
 
 ***Interactive view***
 
@@ -151,7 +152,7 @@ plt.plot([1.6, 2.7])
 plt.title("interactive test")
 plt.xlabel("index")
 ```
-![Graph8](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph8.png?raw=true)
+![Graph8](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph8.png)
 
 ***Non-Interactive view***
 
@@ -165,9 +166,9 @@ for i in range(3):
     plt.plot(np.random.rand(10))
     plt.show()
 ```
-![Graph9](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph9.png?raw=true)
-![Graph10](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph10.png?raw=true)
-![Graph11](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph11.png?raw=true)
+![Graph9](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph9.png)
+![Graph10](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph10.png)
+![Graph11](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph11.png)
 
 
 ***Samples***
@@ -180,7 +181,7 @@ plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro')
 plt.axis([0, 6, 0, 20])
 ```
-![Graph12](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph12.png?raw=true)
+![Graph12](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph12.png)
 
  ```python
 import numpy as np
@@ -192,7 +193,7 @@ t = np.arange(0., 5., 0.2)
 plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
 plt.show()
 ```
-![Graph13](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph13.png?raw=true)
+![Graph13](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph13.png)
 
  ```python
 data = {'a': np.arange(50),
@@ -206,7 +207,7 @@ plt.xlabel('entry a')
 plt.ylabel('entry b')
 plt.show()
 ```
-![Graph14](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph14.png?raw=true)
+![Graph14](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph14.png)
 
  ```python
 names = ['group_a', 'group_b', 'group_c']
@@ -223,7 +224,7 @@ plt.plot(names, values)
 plt.suptitle('Categorical Plotting')
 plt.show()
 ```
-![Graph15](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph15.png?raw=true)
+![Graph15](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph15.png)
 
 
  ```python
@@ -241,7 +242,7 @@ plt.subplot(212)
 plt.plot(t2, np.cos(2*np.pi*t2), 'r--')
 plt.show()
 ```
-![Graph16](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph16.png?raw=true)
+![Graph16](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph16.png)
 
 
  ```python
@@ -260,7 +261,7 @@ plt.axis([40, 160, 0, 0.03])
 plt.grid(True)
 plt.show()
 ```
-![Graph17](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph17.png?raw=true)
+![Graph17](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph17.png)
 
 
  ```python
@@ -277,7 +278,7 @@ plt.annotate('local max', xy=(2, 1), xytext=(3, 1.5),
 plt.ylim(-2, 2)
 plt.show()
 ```
-![Graph18](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph18.png?raw=true)
+![Graph18](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph18.png)
 
 
  ```python
@@ -327,7 +328,7 @@ plt.subplots_adjust(top=0.92, bottom=0.08, left=0.10, right=0.95, hspace=0.25,
 
 plt.show()
 ```
-![Graph19](https://github.com/rodoliva/Python-Studies/blob/master/Machine%20Learning/MathPlot/graph19.png?raw=true)
+![Graph19](https://github.com/rodoliva/Python-Studies/blob/master/Data%20Science/MathPlot/graph19.png)
 
 
 ## Other Samples
