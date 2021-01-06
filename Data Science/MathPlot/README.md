@@ -4,6 +4,15 @@ From <a href="https://matplotlib.org/tutorials/index.html#introductory" target="
 
 ---
 
+# Magic commands
+
+%matplotlib inline
+```python
+%matplotlib inline # plot cannot be modified
+
+%matplotlib notebook # if the plot exist any change will be added
+```
+
 **Simple graph**
 
 ```python
