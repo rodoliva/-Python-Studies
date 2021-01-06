@@ -6,7 +6,6 @@ From <a href="https://matplotlib.org/tutorials/index.html#introductory" target="
 
 # Magic commands
 
-%matplotlib inline
 ```python
 %matplotlib inline # plot cannot be modified
 
