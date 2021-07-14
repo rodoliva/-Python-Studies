@@ -95,6 +95,8 @@ df.pivot_table(index=col1, values= col2,col3], aggfunc=mean) # Creates a pivot t
 df.groupby(col1).agg(np.mean) # Finds the average across all columns for every unique column 1 group
 df.apply(np.mean) # Applies a function across each column
 df.apply(np.max, axis=1) # Applies a function across each row
+df.sample(frac=1) # Shuffle all the rows
+df.sample(frac=0.2) # Shuffle and take a 20% rows sample
 ```
 
 **Modify Index**
