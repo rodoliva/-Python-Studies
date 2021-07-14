@@ -10,7 +10,7 @@ import numpy as np
 **Functions & Methods**
 
 ```python
-a=np.arrat([1,2,3,4,5]) # Array
+a=np.array([1,2,3,4,5]) # Array
 a[0] # index 0 (ex:1)
 type(a) # type
 a.dtype # data type
