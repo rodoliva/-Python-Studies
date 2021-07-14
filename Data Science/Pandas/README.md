@@ -104,6 +104,7 @@ df.sample(frac=0.2) # Shuffle and take a 20% rows sample
 df.index # show index properties
 new_index=['a','b','c','d','e','f','g','h'] # example
 df_new.index=new_index # assign new index to a new df
+df.reset_index(drop=True, inplace=True) # Make a new index, drop the old and make the change in df (inplace)
 ```
 
 **Combining two dataframes**
