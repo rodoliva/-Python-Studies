@@ -24,6 +24,8 @@ range_array = np.arange(0,10,2) # start at 0 end at 10, step 2, resulting array(
 random_array = np.random.randint(0, 10, size=(3,5)) # lowest 0, highest 10, size 3x5 (3 rows, 5 colummns), resulting array([[4, 7, 8, 6, 8],[8, 2, 9, 3, 1],[5, 6, 3, 3, 2]])
 np.random.random((5,3)) # random array between 0 to 1 with a 5,3 size
 np.random.seed(seed=5) # every time that a random function run, the result will be the same, it will choose the seed 5
+np.unique(random_array) # show unique elements
+
 ```
 
 **Operations**
