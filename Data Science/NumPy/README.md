@@ -18,6 +18,12 @@ a.size # elements in the array
 a.ndim # number of array dimension
 a.shape # size of the array in each dimension
 d=a[1:4] " slicing array from 1 to 4 (from the index 0,1,2,3,4,5 the slice=1,2,3)
+ones = np.ones((1,2)) # Result in an array with one dimension with 1 as a value array([[1.,1.]])
+Zeros = np.zeros((1,2)) # Result in an array with one dimension with 0 as a value array([[0.,0.]])
+range_array = np.arange(0,10,2) # start at 0 end at 10, step 2, resulting array([0, 2, 4, 6, 8])
+random_array = np.random.randint(0, 10, size=(3,5)) # lowest 0, highest 10, size 3x5 (3 rows, 5 colummns), resulting array([[4, 7, 8, 6, 8],[8, 2, 9, 3, 1],[5, 6, 3, 3, 2]])
+np.random.random((5,3)) # random array between 0 to 1 with a 5,3 size
+
 ```
 
 **Operations**
